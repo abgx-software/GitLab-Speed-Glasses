@@ -1,0 +1,21 @@
+{
+  "name": "gitlab-speed-glasses",
+  "version": "1.0.0",
+  "description": "Application mignonne pour gagner du temps (à utiliser de préférences avec des lunettes rapides)",
+  "main": "main.js",
+  "keywords": [
+    "GitLabSpeed-Glasses"
+  ],
+  "author": "Nathon",
+  "license": "ISC",
+  "dependencies": {
+    "nconf": "^0.12.0",
+    "readline-sync": "^1.4.10",
+    "xhr2": "^0.2.1"
+  },
+  "bin": {
+    "glsgsetconfig": "./setconfig.js",
+    "glsgresetconfig": "./resetconfig.js",
+    "glsg": "./main.js"
+  }
+}
